@@ -15,7 +15,7 @@ const Profile = () => {
     if (!token) {
       history.push("/");
     }
-  }, [token, history]);
+  }, [token, history ,setUserName]);
 
   return (
     <div className="profile">

@@ -15,7 +15,6 @@ import Data from "./../../twitts/Data"
 const Navbar = ({ userName }) => {
   const [setToken] = useAuth(true);
   const [person, setPerson] = useState({});
-console.log(setToken);
   const clearProfil = () => {
     window.localStorage.clear();
     setToken("");
