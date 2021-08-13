@@ -1,0 +1,77 @@
+.login {
+  text-align: center;
+  background-color: #fff;
+  &__top{
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font-size: 66px;
+    color: rgb(13, 102, 102);
+    border-radius: 10px;
+    background: linear-gradient(0.5turn, #00f, #fff,#fff, #0f0);
+  }
+  &__logo {
+    display:block;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  &__form {
+    display: inline-block;
+    max-width: 35rem;
+    width: 100%;
+  }
+
+  &__input {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(46, 158, 255, .2);
+    color: #0856fd;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, .2);
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    background-color: #2E9EFF;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(80, 171, 241, .7);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    &:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+}

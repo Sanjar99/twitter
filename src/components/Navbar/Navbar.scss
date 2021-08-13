@@ -1,0 +1,100 @@
+.navbar {
+  width: 20vw;
+  height: 100vh;
+  border-right: 1px solid rgba(0, 0, 0, .2);
+  padding-left: 2rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  &__logo {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: .7rem;
+    margin-right: 1em;
+  }
+
+  &__ul {
+    text-align: start;
+    list-style: none;
+  }
+
+  &__link {
+    display: flex;
+    display: inline-block;
+    color: rgba(0, 0, 0, .7);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: #1CA1F2;
+    }
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: .6rem;
+    }
+
+    
+
+    &-active {
+      color: #1CA1F2;
+    }
+  }
+
+  &__btn {
+    border: 1px solid #1CA1F2;
+    background-color: #1CA1F2;
+    padding: .3rem 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    transition: all .4s;
+
+    &:hover {
+      background-color: transparent;
+      color: #1CA1F2;
+    }
+  }
+  &__exit{
+    margin-right: 10px;
+  }
+
+  &__profile-img {
+    display: block;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    object-fit: cover;
+  }
+
+  &__username {
+    color: gold;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+}
+.logo{
+  color: #1CA1F2;
+  width: 2.5em;
+  height: 2.5em;
+}

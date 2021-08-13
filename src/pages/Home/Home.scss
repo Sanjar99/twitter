@@ -1,0 +1,20 @@
+.home {
+  padding-left: 20vw;
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 2px 6px rgb(123, 139, 207);
+    padding: 1rem;
+    background-color: skyblue;
+  }
+  &__title{
+    font-size: 35px;
+    color: rgb(177, 114, 38);
+  }
+  &__text{
+    font-size: 20px;
+    color: rgb(177, 114, 38);
+  }
+}
